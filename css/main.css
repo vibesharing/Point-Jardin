@@ -22,6 +22,8 @@ header{
 .navbar{
    background-color:#4aad1f;
 }
+.navbar-default .navbar-nav li{
+    color: white;
 /* couleur verte sur la ligne */
 #bs-example-navbar-collapse-1{
    background-color: #4aad1f;
@@ -36,17 +38,27 @@ header{
 
 }
 /*VIDEO*/
+/*Article*/
+article h1{
+  color:#4aad1f;
+
+}
+article p{
+  text-align: justify;;
+  padding: 10px;
+}
+/*END Articles*/
 /*Footer */
 container {
   display: flex; /* or inline-flex */
   justify-content: center;
   flex-wrap:nowrap;
-  background-color: #EBECE4;
+  background-color: #484545;
 }
 .form{
 
   border-radius: 0px 5px 5px 0px;
-  border: solid 1px;
+
   width: 33%;
   text-align: center;
 
@@ -66,12 +78,15 @@ container {
    margin-left: 5px;
    margin-right: 5px;
    padding: 1px;
-   border: solid 1px;
+  background-color: #484545;
+  text-align: center;
+  margin-top: 10px;
+
 }
 .adresse{
 
    border-radius: 5px 0px 0px 5px;
-   border: solid 1px;
+
    width: 33%;
 
 
@@ -83,6 +98,7 @@ container {
 .adresse p{
   text-align: center;
   font-size: 13px;
+  color: white;
 }
 
 legend{
@@ -96,7 +112,7 @@ legend{
         width: 100%;
     }
     .googlemap {
-        width: 100%;
+        width: 80%;
     }
     .form{
         width: 100%;
