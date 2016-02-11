@@ -1,0 +1,116 @@
+body{
+  background-color:#EBECE4;
+
+}
+
+header{
+   background-color:#EBECE4;
+   text-align: center;
+}
+.navbar-header {
+   background-color: #484545;
+}
+.navbar {
+   background-color: #4aad1f;
+}
+.navbar-brand {
+   background-color: #484545;
+}
+.dropdown-menu{
+   background-color:#4aad1f;
+}
+.navbar{
+   background-color:#4aad1f;
+}
+/* couleur verte sur la ligne */
+#bs-example-navbar-collapse-1{
+   background-color: #4aad1f;
+}
+.container-fluid{
+  background-color: #4aad1f;
+}
+/*END NAV BAR*/
+/*VIDEO*/
+.video{
+  background-color: white;
+
+}
+/*VIDEO*/
+/*Footer */
+container {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  flex-wrap:nowrap;
+  background-color: #EBECE4;
+}
+.form{
+
+  border-radius: 0px 5px 5px 0px;
+  border: solid 1px;
+  width: 33%;
+  text-align: center;
+
+
+}
+.form input{
+  width:80%;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin: 4px 0;
+  box-sizing: border-box;
+}
+
+.googlemap{
+   background-color:#EBECE4;
+   width: 33%;
+   margin-left: 5px;
+   margin-right: 5px;
+   padding: 1px;
+   border: solid 1px;
+}
+.adresse{
+
+   border-radius: 5px 0px 0px 5px;
+   border: solid 1px;
+   width: 33%;
+
+
+}
+.adresse h3{
+  text-align: center;
+  color: #4aad1f;
+}
+.adresse p{
+  text-align: center;
+  font-size: 13px;
+}
+
+legend{
+  text-align: center;
+  color: #4aad1f;
+  font-size: 30px;
+}
+/*Responsive design 662 */
+@media screen and (max-width: 662px) {
+    .adresse {
+        width: 100%;
+    }
+    .googlemap {
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    container {
+      display: flex; /* or inline-flex */
+      justify-content: center;
+      flex-wrap:wrap;
+}
+/*Footer */
+/*Final*/
+.final{
+  background-color: #484545;
+  height: 20px;
+  width:100%;
+}
+/*Final*/
