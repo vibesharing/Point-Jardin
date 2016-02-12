@@ -65,6 +65,7 @@ header{
 /*CAROUSEL*/
 
 
+
 /*VIDEO*/
 .video{
   background-color: white;
@@ -166,6 +167,10 @@ legend{
   }
   .adresse {
     width: 100%;
+    display: flex;
+    align-content: space-around;
+    align: center;
+    padding-left: 125px;
   }
   .googlemap {
     width: 80%;
@@ -183,11 +188,20 @@ legend{
     }
 
   }
+<<<<<<< HEAD
   .adresse{
     display: flex;
     justify-content: space-around;
     text-align: center;
   }
+=======
+
+  .texte-cache {
+    display: none;
+  }
+
+
+>>>>>>> gh-pages
 }
 /*Footer */
 /*Final*/
