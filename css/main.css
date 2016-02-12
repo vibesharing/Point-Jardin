@@ -132,7 +132,6 @@ container {
   margin-top: 10px;
   border-radius: 5px;
   border-radius: 5px;
-  >>>>>>> gh-pages
 
 }
 .adresse{
@@ -182,31 +181,21 @@ legend{
     display: flex; /* or inline-flex */
     justify-content: center;
     flex-wrap:wrap;
-    .adresse-sub{
-      display: inline-block;
-      text-align: center;
-    }
 
   }
-<<<<<<< HEAD
+
   .adresse{
     display: flex;
     justify-content: space-around;
     text-align: center;
   }
-=======
 
   .texte-cache {
     display: none;
   }
 
 
->>>>>>> gh-pages
+
+
 }
 /*Footer */
-/*Final*/
-.final{
-  background-color: #484545;
-  height: 30px;
-}
-/*Final*/
