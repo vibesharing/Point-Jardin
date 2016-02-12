@@ -5,20 +5,30 @@ body{
 }
 
 header{
-   background-color:#EBECE4;
-   text-align: center;
+  background-color:#EBECE4;
+  text-align: center;
 }
 .navbar-header {
-   background-color: #484545;
+  background-color: #484545;
 }
 .navbar {
-   background-color: #4aad1f;
+  background-color: #4aad1f;
 }
 .navbar-brand {
-   background-color: #484545;
+  background-color: #484545;
 }
 .dropdown-menu{
-   background-color:#4aad1f;
+  background-color:#4aad1f;
+}
+.navbar-default .navbar-nav li a {
+  color: white;
+  font-size: 15px;
+
+
+}
+.navbar-default .navbar-nav li a:hover {
+  color: grey;
+
 }
 .navbar-default .navbar-nav li a {
   color: white;
@@ -31,12 +41,12 @@ header{
 
 }
 .navbar{
-   background-color:#4aad1f;
+  background-color:#4aad1f;
 }
 
 /* couleur verte sur la ligne */
 #bs-example-navbar-collapse-1{
-   background-color: #4aad1f;
+  background-color: #4aad1f;
 }
 .container-fluid{
   background-color: #4aad1f;
@@ -111,25 +121,27 @@ container {
 }
 
 .googlemap{
-   background-color:#EBECE4;
-   width: 33%;
-   margin-left: 5px;
-   margin-right: 5px;
-   padding: 1px;
+  background-color:#EBECE4;
+  width: 33%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 1px;
   background-color: #484545;
   text-align: center;
   margin-top: 10px;
   border-radius: 5px;
+  border-radius: 5px;
+>>>>>>> gh-pages
 
 }
 .adresse{
-
-   border-radius: 5px 0px 0px 5px;
-
-   width: 33%;
+  text-align: center;
+  border-radius: 5px 0px 0px 5px;
+  width: 33%;
 
 
 }
+
 .adresse h3{
   text-align: center;
   color: #4aad1f;
@@ -165,6 +177,11 @@ legend{
       display: flex; /* or inline-flex */
       justify-content: center;
       flex-wrap:wrap;
+  .adresse-sub{
+    display: inline-block;
+    text-align: center;
+  }
+
 }
     .adresse{
       display: flex;
