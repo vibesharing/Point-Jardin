@@ -55,6 +55,7 @@ header{
 /*CAROUSEL*/
 
 
+
 /*VIDEO*/
 .video{
   background-color: white;
@@ -155,6 +156,10 @@ legend{
   }
   .adresse {
     width: 100%;
+    display: flex;
+    align-content: space-around;
+    align: center;
+    padding-left: 125px;
   }
   .googlemap {
     width: 80%;
@@ -167,10 +172,11 @@ legend{
     justify-content: center;
     flex-wrap:wrap;
   }
-  .adresse-sub{
-    display: inline-block;
-    text-align: center;
+
+  .texte-cache {
+    display: none;
   }
+
 
 }
 /*Footer */
