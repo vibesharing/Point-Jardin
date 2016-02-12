@@ -131,7 +131,7 @@ container {
   margin-top: 10px;
   border-radius: 5px;
   border-radius: 5px;
->>>>>>> gh-pages
+  >>>>>>> gh-pages
 
 }
 .adresse{
@@ -161,33 +161,33 @@ legend{
 }
 /*Responsive design 662 */
 @media screen and (max-width: 662px) {
-    body{
-       background-color: #484545;
-    }
-    .adresse {
-        width: 100%;
-    }
-    .googlemap {
-        width: 80%;
-    }
-    .form{
-        width: 100%;
-    }
-    container {
-      display: flex; /* or inline-flex */
-      justify-content: center;
-      flex-wrap:wrap;
-  .adresse-sub{
-    display: inline-block;
-    text-align: center;
+  body{
+    background-color: #484545;
   }
-
-}
-    .adresse{
-      display: flex;
-      justify-content: space-around;
+  .adresse {
+    width: 100%;
+  }
+  .googlemap {
+    width: 80%;
+  }
+  .form{
+    width: 100%;
+  }
+  container {
+    display: flex; /* or inline-flex */
+    justify-content: center;
+    flex-wrap:wrap;
+    .adresse-sub{
+      display: inline-block;
       text-align: center;
     }
+
+  }
+  .adresse{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
 }
 /*Footer */
 /*Final*/
